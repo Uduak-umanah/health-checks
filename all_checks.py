@@ -1,4 +1,5 @@
 import os
+import sys
 def check_reboot():
  """ returns True if the computer has q pending reboot
  """
@@ -7,6 +8,9 @@ def check_reboot():
  pass
 
 def main():
+ if check_reboot():
+  print("pending reboot")
+  sys.exit(1)
  
  pass
 
