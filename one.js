@@ -24,3 +24,5 @@ switch (name) {
     console.log('name not in array');
     break;
 }
+
+function name(params) {}
