@@ -8,7 +8,7 @@ def main():
   sys.exit(1)
   print("every thing is ok")
   sys.exit(0)
-
+name="cause merge conflict"
  
  pass
 
