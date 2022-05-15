@@ -7,7 +7,8 @@ def main():
   print("pending reboot")
   sys.exit(1)
   print("every thing is ok")
-  sys.exit(0)
+  sys.exit(0) 
+name="merge conflict"
 
  
  pass
